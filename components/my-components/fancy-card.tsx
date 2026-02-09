@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   card: {
     width: 330,
     height: 440,
-    borderRadius: 6,
+    borderRadius: 10,
     marginVertical: 12,
     marginHorizontal: 16,
     padding: 20,
@@ -51,16 +51,24 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   cardBody: {
-    flex: 1,
+    marginTop: 10,
+    
   },
   cardTitle: {
     color: "#000000",
+    fontSize: 22,
+    fontWeight: "bold",
+    marginBottom: 4,
   },
   cardLabel: {
-    color: "#000000"
+    color: "#000000",
+    fontSize: 14,
+    marginBottom: 6,
   },
   cardDescription : {
-    color: "#000000"
+    color: "#000000",
+    fontSize: 12,
+    marginBottom: 12,
   },
   cardFooter:{
     color: "#000000"
